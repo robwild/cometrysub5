@@ -1,11 +1,5 @@
 # Exclude composer vendor directories.
 /drush/contrib/
-/vendor/
-/web/core/
-/web/modules/contrib/
-/web/themes/contrib/
-/web/profiles/contrib/
-/web/libraries/
 /console
 
 # Ignore all node_modules folders.
@@ -33,9 +27,6 @@ web/sites/example.sites.php
 web/update.php
 
 # Ignore CSS stylesheet/maps.
-web/themes/custom/par_theme/css/
-web/themes/custom/par_theme/map/
-web/themes/custom/par_theme/assets/vendor/
 
 # Exclude Drupal files.
 /web/sites/*/files/*
@@ -59,7 +50,6 @@ web/themes/custom/par_theme/assets/vendor/
 # Exclude configuration for developer only modules.
 /sync/devel.*
 /sync/simpletest.*
-/sync/par_data_test.*
 /sync/config_inspector.*
 
 # Exclude test reports
