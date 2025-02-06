@@ -1,0 +1,89 @@
+# Exclude composer vendor directories.
+/drush/contrib/
+/console
+
+# Ignore all node_modules folders.
+node_modules/
+npm-debug.log
+
+# Exclude the main drupal scaffold files.
+# If we want to make changes to any of these files
+# we must first remove them from gitignore and
+# exclude from drupal-scaffold in the composer.json
+web/autoload.php
+web/.csslintrc
+web/.editorconfig
+web/.eslintignore
+web/.eslintrc.json
+web/.gitattributes
+web/.htaccess
+private/.htaccess
+web/index.php
+web/sites/default/default.settings.php
+web/sites/default/default.services.yml
+web/sites/development.services.yml
+web/sites/example.settings.local.php
+web/sites/example.sites.php
+web/update.php
+
+# Ignore CSS stylesheet/maps.
+
+# Exclude Drupal files.
+/web/sites/*/files/*
+!/web/sites/*/files/.gitkeep
+/private/*
+!/private/.gitkeep
+
+# Ignore environment specific and sensitive information.
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+
+# Exclude additional database driver files.
+/web/drivers/
+
+# Ignore backups directory used to store a local back of the database.
+/backups/
+
+# Ignore data directory used to store local opensearch data.
+/data/
+
+# Exclude configuration for developer only modules.
+/sync/devel.*
+/sync/simpletest.*
+/sync/config_inspector.*
+
+# Exclude test reports
+web/sites/simpletest
+
+# Exclude project files.
+/.idea/
+*.DS_Store
+.buildpath
+.project
+.settings/
+/nbproject/
+
+# Exclude any Vagrant boxes
+package.box
+.vagrant/
+
+# Exclude any docker containers
+.docker-sync/
+
+auth.json
+/.csslintrc
+/.editorconfig
+/.eslintignore
+/.eslintrc.json
+/.gitattributes
+/.ht.router.php
+/.htaccess
+/INSTALL.txt
+/README.txt
+/README.md
+/autoload.php
+/example.gitignore
+/index.php
+/robots.txt
+/update.php
+/web.config
