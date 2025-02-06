@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/cometrysub5/public_html/
+    - export DEPLOYPATH=/home/cometerysub5/public_html/
     - /bin/cp docroot/* $DEPLOYPATH
